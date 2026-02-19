@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿﻿using RunGroupWebApp.Data.Enum;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -17,5 +18,11 @@ namespace RunGroupWebApp.Models
         [ForeignKey("AppUser")]
         public string AppUserId { get; set; }
         public AppUser? AppUser { get; set; }
+=======
+﻿namespace RunGroupWebApp.Models
+{
+    public class Club
+    {
+>>>>>>> b95f9f35eed4ec06c78acb4fba88c2ad1df0537b
     }
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using RunGroupWebApp.Data.Enum;
 using RunGroupWebApp.Models;
 using System.ComponentModel.DataAnnotations;
@@ -27,3 +28,11 @@ namespace RunGroopWebApp.Models
         public AppUser? AppUser { get; set; }
     }
 }
+=======
+﻿namespace RunGroupWebApp.Models
+{
+    public class Race
+    {
+    }
+}
+>>>>>>> b95f9f35eed4ec06c78acb4fba88c2ad1df0537b
